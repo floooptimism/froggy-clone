@@ -30,8 +30,9 @@ function App() {
         </div>
       </div>
 
-      <div id="hero">
-        {/* image here */}
+      <div id="hero" className="flex justify-center items-center h-64">
+        <img src="/images/help-landing.png" width="600" height="208"/>
+
       </div>
 
       <div id="story">
