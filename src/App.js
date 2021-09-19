@@ -49,6 +49,10 @@ function App() {
         </div>
       </div>
 
+      <div class="bg-none" className="h-0 items-center">
+        <img src="/images/landing-background.jpg" />
+        </div>
+
       <div id="hero" className="flex justify-center items-center h-64">
         <img src="/images/help-landing.png" width="600" height="208"/>
 
