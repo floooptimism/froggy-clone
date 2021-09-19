@@ -59,11 +59,27 @@ function App() {
       </div>
 
       <div id="story">
-
+        
       </div>
 
-      <div id="collection">
-
+      <div id="collection" className="relative overflow-hidden flex w-full">
+      <div className="w-1/4 absolute left-0 left- flex flex-col anim-inverseScroll">
+            <img src="/images/col1.jpg" className="w-full" />
+            <img src="/images/col1.jpg" className="w-full" />
+        </div>
+        <div className="w-1/4 absolute left-1/4 left- flex flex-col anim-scroll">
+            <img src="/images/col1.jpg" className="w-full" />
+            <img src="/images/col1.jpg" className="w-full" />
+        </div>
+        <div className="w-1/4 absolute left-2/4 left- flex flex-col anim-inverseScroll">
+            <img src="/images/col1.jpg" className="w-full" />
+            <img src="/images/col1.jpg" className="w-full" />
+        </div>
+        <div className="w-1/4 absolute left-3/4 left- flex flex-col anim-scroll">
+            <img src="/images/col1.jpg" className="w-full" />
+            <img src="/images/col1.jpg" className="w-full" />
+        </div>
+    
       </div>
 
       <div id="team">

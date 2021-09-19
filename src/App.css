@@ -17,3 +17,36 @@ body{
   height: 600px;
   z-index: 1;
 }
+
+#collection {
+  height: 600px;
+}
+
+.anim-scroll {
+  animation: 240s linear 0s infinite normal none running marque;
+}
+
+.anim-inverseScroll{
+  animation: 240s linear 0s infinite normal none running inverseMarque;
+}
+
+
+
+@keyframes marque {
+  0%, 100%{
+      transform: translateY(-1%)
+  }
+  50%{
+      transform: translateY(-75%);
+  }
+}
+
+
+@keyframes inverseMarque {
+  0%, 100%{
+      transform: translateY(-75%)
+  }
+  50%{
+      transform: translateY(-1%);
+  }
+}
