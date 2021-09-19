@@ -26,12 +26,12 @@ function App() {
         </div>
 
         {/* links */}
-        <div id="navbar-links" className="flex-1 hidden md:flex space-x-14 items-center justify-center text-xl">
+        <div id="navbar-links" className="flex-1 hidden md:flex space-x-14 items-center justify-center text-xl font-mono">
           <a href="#">Story</a>
           <a href="#">Frogs</a>
           <a href="#">Team</a>
           <a href="#">Roadmap</a>
-          <a href="#">Faq</a>
+          <a href="#">FAQ</a>
         </div>
 
 
@@ -44,11 +44,11 @@ function App() {
           </button>
         </div>
       </div>
-
+      {/*background image*/}
       <div class="bg-none" className="h-0 items-center">
         <img src="/images/landing-background.jpg" />
         </div>
-
+      {/*we need your help image*/}
       <div id="hero" className="flex justify-center items-center h-64">
         <img src="/images/help-landing.png" width="600" height="208"/>
 
