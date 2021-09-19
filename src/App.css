@@ -1,3 +1,19 @@
 body{
   background-color: #DBDEEE;
 }
+
+*{
+  font-family: 'Gentium Book Basic', serif;
+}
+
+#navbar-wallet-md button{
+  border-radius: 30px;
+}
+
+#navbar-wallet-md{
+  font-family: 'Bowlby One SC', cursive;
+}
+
+#navbar-links{
+  font-family: 'Bowlby One SC', cursive;
+}
