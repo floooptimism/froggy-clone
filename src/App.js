@@ -68,7 +68,7 @@ function App() {
         
       </div>
       {/* collection animation*/}
-      {/*<div id="collection" className="relative overflow-hidden flex w-full">
+      <div id="collection" className="relative overflow-hidden flex w-full">
       <div className="w-1/4 absolute left-0 left- flex flex-col anim-inverseScroll">
             <img src="/images/col1.jpg" className="w-full" />
             <img src="/images/col1.jpg" className="w-full" />
@@ -86,7 +86,7 @@ function App() {
   <img src="/images/col1.jpg" className="w-full" />
   </div>
     
-  </div>*/}
+  </div>
 
       <div id="team">
 
