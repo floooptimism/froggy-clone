@@ -55,14 +55,20 @@ function App() {
       {/*we need your help image*/}
       <div id="hero" className="flex justify-center items-center h-64">
         <img src="/images/help-landing.png" width="600" height="208"/>
+      </div>
+      
+      <div id="connect" className="flex justify-center items center h-64">
+      <button className="w-44 h-16 border" style={{'backgroundColor':'#01CA17'}}>
+            Connect
+          </button>
+
 
       </div>
-
       <div id="story">
         
       </div>
-
-      <div id="collection" className="relative overflow-hidden flex w-full">
+      {/* collection animation*/}
+      {/*<div id="collection" className="relative overflow-hidden flex w-full">
       <div className="w-1/4 absolute left-0 left- flex flex-col anim-inverseScroll">
             <img src="/images/col1.jpg" className="w-full" />
             <img src="/images/col1.jpg" className="w-full" />
@@ -77,10 +83,10 @@ function App() {
         </div>
         <div className="w-1/4 absolute left-3/4 left- flex flex-col anim-scroll">
             <img src="/images/col1.jpg" className="w-full" />
-            <img src="/images/col1.jpg" className="w-full" />
-        </div>
+  <img src="/images/col1.jpg" className="w-full" />
+  </div>
     
-      </div>
+  </div>*/}
 
       <div id="team">
 
