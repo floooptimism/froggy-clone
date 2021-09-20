@@ -80,6 +80,14 @@ function App() {
             <img src="/images/col1.jpg" className="w-full" />
         </div>
     
+        <div id="collection-content" className="z-10 p-5 px-6 w-4/5 sm:w-auto bg-white">
+          <h1 id="collection-content-title" className="font-bowlby text-center text-3xl">VIEW THE FROGS</h1>
+          <p id="collection-content-paragraph">
+            All across the land, frogs are being snatched up by storks. King Ribbit needs <strong>YOUR</strong> help to save the remaining <strong>10,000</strong> frogs in disguise.
+            Join his kingdom <strong>TODAY</strong> and check the mysterious world of Frognolia.
+          </p>
+          <button id="collection-content-button">VIEW ON OPENSEA</button>
+        </div>
       </div>
 
       <div id="team">
