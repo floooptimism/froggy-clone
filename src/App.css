@@ -29,6 +29,32 @@ body{
 
 #hero {
 }
+div[id^='story-chapter'] {
+  max-width: 1000px;
+}
+
+div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
+  font-size: 24px;
+}
+
+
+@media screen and (min-width: 900px){
+  div[id^='story-chapter'] [id^='paragraph'], #story-intro p{
+    font-size: 27px
+  }
+}
+
+
+#story-intro{
+  width: 100%;
+  max-width: 1000px;
+}
+#story-intro{
+  max-width: 1000px;
+}
+#story-chapter1 #image{
+  max-width: 400px;
+}
 
 
 

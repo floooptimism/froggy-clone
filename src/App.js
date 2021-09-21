@@ -131,3 +131,36 @@ function App() {
 }
 
 export default App;
+
+
+function Story(){
+  return (
+    <div id="story" className="px-8 py-10 flex flex-col space-y-16 items-center font-book">
+      <div id="story-intro" className="flex flex-col items-center space-y-8">
+        <h1 className="font-book font-bold text-4xl text-center">How our story starts...</h1>
+        <img src="/images/story/story-intro.png" className="w-full h-full"/>
+        <p id="paragraph">For 150 years, the hidden kingdom of Frognolia has been a wondrouds land of lush green forests, swampy lakes, and packs of Bud-weis-er. Thousands of hoppin' mad frogs live here, and their parties are legendary: the club are always jumping in Frognolia.</p>
+      </div>
+
+      <div id="story-chapter1" className="flex flex-col mdp:flex-row items-center justify-center space-x-4 space-y-8">
+        <div className="flex-1">
+          <img id="image" src="/images/story/story-chapter1.png" className="mx-auto"/>
+        </div>
+        <div className="flex-1">
+          <p id="paragraph">But leaping forwardto the present day, there's a problem. And it's a big one.<br/>
+            <span className="ml-6"> </span>Storks.<br/>
+            <span className="ml-6"> </span>Everywhere<br/>
+            <span className="ml-6"></span>Swooping down and killing these innocent green creatures for no reason.<br/>
+            <span className="ml-6"></span>I mean, it's bad.<br/>
+            <span className="ml-6"></span>Frogs are croaking left, right, and center.
+          </p>
+        </div>
+      </div>
+    
+      <div id="story-chapter2" className="flex flex-col item-center space-x-4 space-y-8">
+        
+      </div>
+
+    </div>
+  )
+}
