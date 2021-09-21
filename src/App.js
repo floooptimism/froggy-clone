@@ -66,7 +66,14 @@ function App() {
         <img src="/images/landing-background.jpg" className="w-full absolute bottom-0 left-0"/>
 
       </div>
+      
+      <div id="connect" className="flex justify-center items center h-64">
+      <button className="w-44 h-16 border" style={{'backgroundColor':'#01CA17'}}>
+            Connect
+          </button>
 
+
+      </div>
       <div id="story">
         
       </div>
