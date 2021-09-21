@@ -6,9 +6,15 @@ import Hamburger from 'react-hamburger-menu'
 
 function App() {
   const [navhamburgerIsOpen, setNavhamburgerIsOpen] = useState(false);
+  const [isScrolledDown, setIsScrolledDown] = useState(false);
 
   window.addEventListener('scroll', function(e){
-    console.log(window.scrollY);
+    if(window.scrollY > 30 && !isScrolledDown){
+      setIsScrolledDown(true);
+    }else if(isScrolledDown && window.scrollY < 30){
+      setIsScrolledDown(false);
+    }
+
   })  
 
   return (
