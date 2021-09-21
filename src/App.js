@@ -19,9 +19,9 @@ function App() {
 
   return (
     <div>
-      <div id="navbar" className="z-20 backdrop-filter backdrop-blur-lg bg-black mdp:bg-white bg-opacity-5 mdp:bg-opacity-50 px-3 mdp:px-8 py-3 mdp:py-5 flex items-center justify-between fixed top-0 left-0 w-full">
+      <div id="navbar" className={`transition-all duration-300 mdp:duration-200 ease-in-out z-20 backdrop-filter ${isScrolledDown ? 'backdrop-blur-lg bg-black mdp:bg-white bg-opacity-5 mdp:bg-opacity-50':''} px-3 mdp:px-8 py-3 mdp:py-5 flex items-center justify-between fixed top-0 left-0 w-full`}>
         <div id="navbar-menu" className="flex flex-1 mdp:hidden items-center ">
-          <div className="flex w-10 h-10 rounded-lg bg-white items-center justify-center ">
+          <div className="flex w-10 h-10 rounded-lg bg-white items-center justify-center cursor-pointer">
             <Hamburger 
               isOpen={navhamburgerIsOpen}
               menuClicked={()=>setNavhamburgerIsOpen(prev => !prev)}
@@ -38,7 +38,7 @@ function App() {
         </div>
 
         {/* links */}
-        <div id="navbar-links" className="flex-1 hidden mdp:flex space-x-10 items-center justify-center text-base text-white mdp:text-gray-800">
+        <div id="navbar-links" className={`transition-all duration-200 ease-in-out flex-1 hidden mdp:flex space-x-10 items-center justify-center text-base ${isScrolledDown ? 'text-gray-800':'text-white'}`}>
           <a href="#">Story</a>
           <a href="#">Frogs</a>
           <a href="#">Team</a>
@@ -91,7 +91,7 @@ function App() {
 
         <div id="collection-content" className="z-10 p-5 px-6 w-4/5 sm:w-auto bg-white">
           <h1 id="collection-content-title" className="font-bowlby text-center text-3xl">VIEW THE FROGS</h1>
-          <p id="collection-content-paragraph">
+          <p id="collection-content-paragraph" className="font-prompt my-3 text-center">
             All across the land, frogs are being snatched up by storks. King Ribbit needs <strong>YOUR</strong> help to save the remaining <strong>10,000</strong> frogs in disguise.
             Join his kingdom <strong>TODAY</strong> and check the mysterious world of Frognolia.
           </p>
