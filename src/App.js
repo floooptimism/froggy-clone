@@ -62,21 +62,25 @@ function App() {
 
       {/*we need your help image*/}
       <div id="hero" className="flex relative justify-center items-center h-screen max-h-screen" style={{'backgroundColor': '#b5d6ff'}}>
-        <img src="/images/help-landing.png" width="600" height="208" className="z-10"/>
+        <div id="hero-content" className="z-10">
+          <img src="/images/help-landing.png" width="600" height="208"/>
+          <div id="hero-content-button" className="text-center w-full">
+            <button className="h-16 border bg-white font-bowlby px-6 py-2 text-xl shadow-2xl" style={{'olor':'#01CA17'}}>
+                  Connect Wallet
+            </button>
+            <p className="font-bowlby text-white mt-3">Help Save The Frogs!</p>
+          </div>
+        </div>
         <img src="/images/landing-background.jpg" className="w-full absolute bottom-0 left-0"/>
 
+        <div id="connect" className="flex justify-center items center h-64">
+          
+
+
+        </div>
       </div>
       
-      <div id="connect" className="flex justify-center items center h-64">
-      <button className="w-44 h-16 border" style={{'backgroundColor':'#01CA17'}}>
-            Connect
-          </button>
-
-
-      </div>
-      <div id="story">
-        
-      </div>
+      <Story />
 
       <div id="collection" className="relative overflow-hidden flex items-center justify-center w-full">
         <div className="w-2/4 mdp:w-1/4 absolute left-0 top-0 flex flex-col anim-inverseScroll">

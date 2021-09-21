@@ -10,6 +10,10 @@ body{
   font-family: 'Prompt', sans-serif;
 }
 
+.font-book{
+  font-family: 'Gentium Book Basic', serif;
+}
+
 
 
 
@@ -29,6 +33,18 @@ body{
 
 #hero {
 }
+#hero-content-button button{
+  color: #00CB17;
+  border-radius: 30px
+}
+
+
+
+
+#story{
+  overflow: hidden;
+}
+
 div[id^='story-chapter'] {
   max-width: 1000px;
 }
@@ -55,6 +71,7 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 #story-chapter1 #image{
   max-width: 400px;
 }
+
 
 
 
