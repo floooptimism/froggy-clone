@@ -6,6 +6,10 @@ body{
   font-family: 'Bowlby One SC', cursive;
 }
 
+.font-prompt{
+  font-family: 'Prompt', sans-serif;
+}
+
 
 
 
@@ -35,11 +39,24 @@ body{
 }
 
 #collection-content{
-
+  background-color: #ebf1f1;
 }
 
 #collection-content-title{
   color: #191c43;
+}
+
+#collection-content-paragraph{
+  color: #191c43b3;
+}
+#collection-content-paragraph strong{
+  color: #191c43;
+  font-weight: 900;
+}
+
+#collection-content-button button{
+  background-color: #849BFE;
+  border-radius: 30px;
 }
 
 @media screen and (min-width: 430px){
