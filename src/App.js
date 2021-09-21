@@ -77,16 +77,16 @@ function App() {
           <img src="/images/col1.jpg" className="w-full" />
         </div>
         <div className="w-2/4 mdp:w-1/4 absolute left-2/4 mdp:left-1/4 top-0 flex flex-col anim-scroll">
-          <img src="/images/col1.jpg" className="w-full" />
-          <img src="/images/col1.jpg" className="w-full" />
+          <img src="/images/col2.jpg" className="w-full" />
+          <img src="/images/col2.jpg" className="w-full" />
         </div>
         <div className="w-1/4 absolute  left-2/4 top-0 hidden mdp:flex flex-col anim-inverseScroll">
-          <img src="/images/col1.jpg" className="w-full" />
-          <img src="/images/col1.jpg" className="w-full" />
+          <img src="/images/col3.jpg" className="w-full" />
+          <img src="/images/col3.jpg" className="w-full" />
         </div>
         <div className="w-1/4 absolute left-3/4 top-0 hidden mdp:flex flex-col anim-scroll">
-          <img src="/images/col1.jpg" className="w-full" />
-          <img src="/images/col1.jpg" className="w-full" />
+          <img src="/images/col4.jpg" className="w-full" />
+          <img src="/images/col4.jpg" className="w-full" />
         </div>
 
         <div id="collection-content" className="z-10 p-5 px-6 w-4/5 sm:w-auto bg-white">
