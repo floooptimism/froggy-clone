@@ -66,16 +66,30 @@ function App() {
         <img src="/images/landing-background.jpg" className="w-full absolute bottom-0 left-0"/>
 
       </div>
-      
-      <div id="connect" className="flex justify-center items center h-64">
+      {/*
+      <div id="connect" className="flex justify-center items-center h-64">
       <button className="w-44 h-16 border" style={{'backgroundColor':'#01CA17'}}>
             Connect
           </button>
 
 
-      </div>
+      </div>*/}
       <div id="story">
+        <br></br>
+        <br></br>
+        <br></br>
+        <span class="flex relative justify-center items-center font-gentium text-4xl">
+          How our story starts...
+        </span>
+        <img src="/images/story.png" className="w-full bottom-0 left-0"/>
         
+      </div>
+      <div id="story2">
+        <span class="flex relative justify-center items-center font-gentium text-2xl">
+        For 150 years, the hidden kingdom of Frognolia has been a wondrous land of lush green forests,
+        swampy lakes, and  packs of Bud-weis-er. Thousands of hoppin' mad frogs live here, and their
+        parties are legendary: the clubs are always jumping in Frognolia.
+        </span>
       </div>
 
       <div id="collection" className="relative overflow-hidden flex items-center justify-center w-full">
