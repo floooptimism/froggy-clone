@@ -95,7 +95,9 @@ function App() {
             All across the land, frogs are being snatched up by storks. King Ribbit needs <strong>YOUR</strong> help to save the remaining <strong>10,000</strong> frogs in disguise.
             Join his kingdom <strong>TODAY</strong> and check the mysterious world of Frognolia.
           </p>
-          <button id="collection-content-button">VIEW ON OPENSEA</button>
+          <div id="collection-content-button" className="text-center">
+            <button className="p-4 font-bowlby text-white text-xl px-6">VIEW ON OPENSEA</button>
+          </div>
         </div>
       </div>
 
