@@ -112,9 +112,76 @@ function App() {
         </div>
       </div>
 
-      <div id="team">
-        <h1 id="team-title">THE TEAM</h1>
-        <div id="team-list">
+      <div id="team" className="z-10 flex items-center py-16 space-y-12 flex-col">
+        <h1 id="team-title" className="font-bowlby text-4xl"
+          style={{
+            'color':'#191c43'
+          }}
+        >THE TEAM</h1>
+
+        <div id="team-list" className="w-full">
+          <div id="team-card" className="flex flex-col items-center">
+            <div id="team-card-image" className="overflow-hidden rounded-full">
+              <img src="/images/team/person1.png" />
+            </div>
+            <div id="team-card-role" className="font-bowlby">
+              King Ribbit
+            </div>
+            <div id="team-card-name" className="font-bowlby">
+              The King
+            </div>
+          </div> 
+
+          <div id="team-card" className="flex flex-col items-center">
+            <div id="team-card-image" className="overflow-hidden rounded-full">
+              <img src="/images/team/person1.png" />
+            </div>
+            <div id="team-card-role" className="font-bowlby">
+              King Ribbit
+            </div>
+            <div id="team-card-name" className="font-bowlby">
+              The King
+            </div>
+          </div> 
+
+
+<div id="team-card" className="flex flex-col items-center">
+            <div id="team-card-image" className="overflow-hidden rounded-full">
+              <img src="/images/team/person1.png" />
+            </div>
+            <div id="team-card-role" className="font-bowlby">
+              King Ribbit
+            </div>
+            <div id="team-card-name" className="font-bowlby">
+              The King
+            </div>
+          </div> 
+
+
+<div id="team-card" className="flex flex-col items-center">
+            <div id="team-card-image" className="overflow-hidden rounded-full">
+              <img src="/images/team/person1.png" />
+            </div>
+            <div id="team-card-role" className="font-bowlby">
+              King Ribbit
+            </div>
+            <div id="team-card-name" className="font-bowlby">
+              The King
+            </div>
+          </div> 
+
+
+<div id="team-card" className="flex flex-col items-center">
+            <div id="team-card-image" className="overflow-hidden rounded-full">
+              <img src="/images/team/person1.png" />
+            </div>
+            <div id="team-card-role" className="font-bowlby">
+              King Ribbit
+            </div>
+            <div id="team-card-name" className="font-bowlby">
+              The King
+            </div>
+          </div> 
 
         </div>
       </div>
