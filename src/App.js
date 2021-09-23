@@ -3,6 +3,9 @@ import './App.css';
 import { useState } from 'react';
 
 import Hamburger from 'react-hamburger-menu'
+import useInView from 'react-cool-inview';
+
+
 
 function App() {
   const [navhamburgerIsOpen, setNavhamburgerIsOpen] = useState(false);
@@ -19,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <div id="navbar" className={`transition-all duration-300 mdp:duration-200 ease-in-out z-20 backdrop-filter ${isScrolledDown ? 'backdrop-blur-lg bg-black mdp:bg-white bg-opacity-5 mdp:bg-opacity-50':''} px-3 mdp:px-8 py-3 mdp:py-5 flex items-center justify-between fixed top-0 left-0 w-full`}>
+      <div id="navbar" className={`transition-all duration-300 mdp:duration-200 ease-in-out z-50 backdrop-filter ${isScrolledDown ? 'backdrop-blur-lg bg-black mdp:bg-white bg-opacity-5 mdp:bg-opacity-50':''} px-3 mdp:px-8 py-3 mdp:py-5 flex items-center justify-between fixed top-0 left-0 w-full`}>
         <div id="navbar-menu" className="flex flex-1 mdp:hidden items-center ">
           <div className="flex w-10 h-10 rounded-lg bg-white items-center justify-center cursor-pointer">
             <Hamburger 
@@ -82,7 +85,7 @@ function App() {
       
       <Story />
 
-      <div id="collection" className="relative overflow-hidden flex items-center justify-center w-full">
+      <div id="collection" className="z-10 relative overflow-hidden flex items-center justify-center w-full">
         <div className="w-2/4 mdp:w-1/4 absolute left-0 top-0 flex flex-col anim-inverseScroll">
           <img src="/images/col1.jpg" className="w-full" />
           <img src="/images/col1.jpg" className="w-full" />
@@ -186,11 +189,13 @@ function App() {
         </div>
       </div>
 
-      <div id="roadmap">
-
+      <div id="roadmap" className="z-10 py-8 px-4">
+        <div id="roadmap-title" className="font-bowlby text-5xl text-white">
+          ...WHERE OUR STORY CONTINUES
+        </div>
       </div>
 
-      <div id="faq">
+      <div id="faq" className="z-10">
 
       </div>
 

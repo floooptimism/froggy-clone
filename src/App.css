@@ -85,6 +85,7 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 }
 
 
+
 #team-list{
   display: grid;
   gap:  1rem; 
@@ -107,6 +108,14 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 #team-card{
   margin-bottom: 2rem;
 }
+
+
+
+
+#roadmap{
+  background-color: #849BFE;
+}
+
 
 
 #collection {
