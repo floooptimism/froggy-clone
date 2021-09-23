@@ -46,10 +46,12 @@ body{
 
 #story{
   overflow: hidden;
+  height: 600px;
 }
 
 div[id^='story-chapter'] {
   max-width: 1000px;
+  width: 100%;
 }
 
 div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
@@ -58,7 +60,7 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 
 
 @media screen and (min-width: 900px){
-  div[id^='story-chapter'] [id^='paragraph'], #story-intro p{
+  div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
     font-size: 27px
   }
 }
@@ -75,6 +77,12 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
   max-width: 400px;
 }
 
+#story #stop-reading{
+  transition: all 0.5s ease-out;
+}
+.movedown{
+  transform: translateY(150px);
+}
 
 
 #team-list{
