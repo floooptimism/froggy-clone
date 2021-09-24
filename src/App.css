@@ -1,3 +1,7 @@
+:root{
+  --dark-blue: #191c43;
+}
+
 body{
   background-color: #DBDEEE;
 }
@@ -35,6 +39,7 @@ body{
 
 
 #hero {
+  height:  calc(100vh + 150px);
 }
 #hero-content-button button{
   color: #00CB17;
@@ -91,31 +96,58 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
   gap:  1rem; 
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-#team-card-image{
+.team-card-image{
   width:  100%;
   height:  100%;
   max-width: 150px;
   max-height: 150px;
 }
-#team-card-role{
+.team-card-role{
   color:  rgb(89, 118, 255);
   font-size: 20px;
 }
-#team-card-name{
+.team-card-name{
   color:  rgba(25, 28, 67, 0.7);
   font-size: 14px;
 }
-#team-card{
+.team-card{
   margin-bottom: 2rem;
 }
-
 
 
 
 #roadmap{
   background-color: #849BFE;
 }
-
+#roadmap img{
+  max-width: 600px;
+  width:  100%;
+}
+#roadmap .roadmap-entry{
+  @apply flex flex-col mdp:flex-row space-y-8;
+}
+.roadmap-entry-text{
+  @apply font-bowlby text-white;
+  max-width: 600px;
+  margin:  0 auto;
+  font-size: 14px;
+}
+.roadmap-more-container-title{
+  color: var(--dark-blue);
+  font-weight:  600;
+  margin-bottom:  8px;
+  font-size: 20px;
+}
+.roadmap-more-container-paragraph{
+  color:  #141740;
+  font-size:  13px;
+  line-height: 19px;
+  opacity:  0.7;
+}
+.roadmap-more-container{
+  @apply shadow-lg;
+  max-width: 390px;
+}
 
 
 #collection {
@@ -128,14 +160,14 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 }
 
 #collection-content-title{
-  color: #191c43;
+  color: var(--dark-blue);
 }
 
 #collection-content-paragraph{
   color: #191c43b3;
 }
 #collection-content-paragraph strong{
-  color: #191c43;
+  color: var(--dark-blue);
   font-weight: 900;
 }
 
@@ -153,6 +185,54 @@ div[id^='story-chapter'] [id^='paragraph'], #story-intro #paragraph{
 #collection-content{
   border-radius: 25px;
 }
+
+
+
+
+.faq-title{
+  color: var(--dark-blue);
+}
+
+.accordion{
+  @apply border-b border-gray-400 border-opacity-70
+}
+
+.accordion-label{
+  color:  var(--dark-blue);
+  @apply text-base mdp:text-lg px-2 py-4;
+}
+.accordion-content-container{
+  padding: 0;
+  margin:  0;
+  margin-left:  30px;
+  transition:  all 0.3s ease-in-out;
+  opacity:  0;
+  pointer-events: none;
+}
+.accordion-container-expand{
+  opacity:  1;
+  padding: 10px 0; 
+}
+
+
+.accordion-content{
+  opacity:  0;
+  height: 0;
+  pointer-events: none;
+  overflow: hidden;
+  transition-property: opacity, height;
+  transition-duration: 0.4s, 0.3s;
+  transition-timing-function:ease-in-out, ease-in-out;
+  color:  #141740;
+  font-size: 13px;
+  @apply border-l-2 border-red-600 pl-3
+}
+.accordion-content-expand{
+  opacity:  0.7;
+}
+
+
+
 
 
 
